@@ -8,6 +8,7 @@ section>div>.foto-1{
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
+    box-shadow: 5px 5px 10px 1px #000000;
     float:left;
 }
 .nachalo{
@@ -44,12 +45,14 @@ a:hover{
     width: 10em;
     display: block;
     margin-left: auto;
+    box-shadow: 5px 5px 10px 1px #000000;
     margin-right: auto;
     border-radius: 8px;
     float:right;
 }
 .foto-3{
     display:flexbox;
+    box-shadow: 5px 5px 10px 1px #000000;
     width: 30em;
     display: block;
     margin-left: auto;
