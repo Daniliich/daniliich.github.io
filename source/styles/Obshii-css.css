@@ -8,7 +8,7 @@ section>div>.foto-1{
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
-    float:left;
+    float:right;
     animation: myAnim 1s ease 0.7s 1 normal forwards;
 }
 .nachalo{
