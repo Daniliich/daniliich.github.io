@@ -9,6 +9,7 @@ section>div>.foto-1{
     margin-right: auto;
     border-radius: 8px;
     float:left;
+    animation: myAnim 1s ease 0.7s 1 normal forwards;
 }
 .nachalo{
     margin-top: 5em;
@@ -42,6 +43,7 @@ a:hover{
 .foto-2{
     display:flexbox;
     width: 10em;
+    animation: myAnim 1s ease 0.7s 1 normal forwards;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -50,11 +52,20 @@ a:hover{
 }
 .foto-3{
     display:flexbox;
-
+    animation: myAnim 1s ease 0.7s 1 normal forwards;
     width: 30em;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
     float:right;
+}
+@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
 }
