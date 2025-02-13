@@ -1,0 +1,74 @@
+body{
+    background: -webkit-linear-gradient(90deg, #97b5d3,#c2ccd1,#d0d0e2);background: linear-gradient(90deg, #97b5d3,#c2ccd1,#d0d0e2);
+
+}
+section>div>.foto-1{
+    display:flexbox;
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    float:right;
+    animation: myAnim 1s ease 0.7s 1 normal forwards;
+}
+.nachalo{
+    margin-top: 5em;
+}
+.nachalo-1{
+    margin-top: 2em;
+    padding: 1em;
+    font-size: 1.2em;
+    
+}
+.img-nav1{
+   width: 60%;
+   border-radius: 8px;
+   outline: 2px solid #616161;}
+
+.spisok{
+    margin-bottom: 8em;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+a:hover{
+    text-decoration: underline;
+    color:#373737
+}
+.nachalo-1>h1{
+    font-size: 2.4em;
+   margin-bottom: 2em;
+}
+.foto-2{
+    display:flexbox;
+    width: 30%;
+    animation: myAnim 1s ease 0.7s 1 normal forwards;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    float:right;
+}
+.foto-3{
+    display:flexbox;
+    animation: myAnim 1s ease 0.7s 1 normal forwards;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    float:right;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
